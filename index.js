@@ -22,7 +22,6 @@ function renderTodoList() {
         todoListHtml += html;
     })
 
-    console.log(todoListHtml);
 
     document.querySelector('.js-todo-list').innerHTML = todoListHtml
 
